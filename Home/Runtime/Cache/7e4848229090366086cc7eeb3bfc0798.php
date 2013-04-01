@@ -1,1 +1,0 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html><html><head><title><?php echo ($title); ?></title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><div class="main"><div class="ShowMemberStatic"><ul><li><?php echo ($name); ?></li><li><a href="__APP__/Member/Logout">注销</a></li></ul></div></div></body></html>
