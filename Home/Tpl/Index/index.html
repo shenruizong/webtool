@@ -1,14 +1,27 @@
 <include file="Public:header"/>
 <div class="main">
-    <div class="ShowMemberStatic">
-        <ul>
-            <li>
-                {$name}
-            </li>
-            <li>
-                <a href="__APP__/Member/Logout">注销</a>
-            </li>
-        </ul>
+    <div class="header">
+        <div class="ShowMemberStatic">
+            <ul>
+                <li>
+                    <!--{$name}-->
+                    disappeared
+                </li>
+                <li>
+                    <a href="__APP__/Member/Logout">注销</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="navigation">
+            <ul>
+                <li><a href="__APP__/Task/Mine">我的任务</a></li>
+                <li><a href="__APP__/Group/Manage">团队项目</li>
+                <li><a href="__APP__/My/Information"/>个人资料</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 <include file="Public:footer"/>
