@@ -3,6 +3,7 @@ class TaskAction extends Action
 {
     function Mine()
     {
-        $this->show("我的任务s");
+        $this->assign("title","我的任务");
+        $this->display();
     }
 }

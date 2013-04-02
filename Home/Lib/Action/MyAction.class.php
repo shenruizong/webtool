@@ -3,6 +3,7 @@ class MyAction extends Action
 {
     function Information()
     {
-        $this->show("个人信息");
+        $this->assign("title","我的信息");
+        $this->display();
     }
 }

@@ -3,6 +3,7 @@ class GroupAction extends Action
 {
     function Manage()
     {
-        $this->show("团队项目");
+        $this->assign("title","我的团队");
+        $this->display();
     }
 }
