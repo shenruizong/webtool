@@ -40,7 +40,7 @@ abbr, acronym {
 }
 .header
 {
-    
+
     background-color: #f3f3f3;
     background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3);
     text-shadow: 0 1px 0 #fff;
@@ -52,7 +52,7 @@ abbr, acronym {
 {
     margin: 0 auto;
     width: 1000px;
-    
+
 }
 .ShowMemberStatic ul
 {
@@ -76,17 +76,50 @@ abbr, acronym {
     font-size: 18px;
 }
 .metabox {
-position: relative;
-margin-bottom: 10px;
-color: #333;
-padding: 10px;
-background: #fafafa;
-border: 1px solid #ddd;
-border-radius: 3px;
+    position: relative;
+    margin-bottom: 10px;
+    color: #333;
+    padding: 10px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 3px;
 }
 .show
 {
     float: left;
     width: 800px;
     margin-left: 5px;
+}
+
+.quest_table li
+{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 0 0 20px 0;
+    position: relative;
+    min-height: 35px;
+    overflow: hidden;
+    margin: 0 0 20px 0;
+    list-style-type: none;
+}
+.quest_table li a
+{
+    text-decoration: none;
+}
+.quest_table h3 a
+{
+    display: inline-block;
+    line-height: 32px;
+    position: relative;
+    top: -5px;
+}
+.quest_table li a:hover
+{
+    text-decoration: underline;
+}
+.filter-bar
+{
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
 }
