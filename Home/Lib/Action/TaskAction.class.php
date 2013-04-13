@@ -6,4 +6,8 @@ class TaskAction extends Action
         $this->assign("title","我的任务");
         $this->display();
     }
+    function Info()
+    {
+    	$this->display();
+    }
 }
